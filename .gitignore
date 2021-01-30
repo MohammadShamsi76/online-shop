@@ -23,5 +23,5 @@ Homestead.json
 .phpunit.result.cache
 
 #IDE metadata
-**.idea/**
+.idea/
 
