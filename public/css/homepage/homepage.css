@@ -2,6 +2,11 @@ body {
   overflow-x: hidden;
 }
 
+.navbar-brand img {
+  width: 100px;
+  height: 70px;
+}
+
 .btn-login {
   background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);
   text-align: center;
@@ -156,8 +161,12 @@ body {
   right: 0;
 }
 
+.buy-section {
+  margin-top: 100px;
+}
 .buy-section img {
   width: 100%;
+  height: 100%;
 }
 .buy-section h2 {
   color: #445eb9;
@@ -208,20 +217,79 @@ body {
   margin-right: 10px;
 }
 .buy-section .rate-score {
-  background-color: #b0c8ef;
+  background-color: #f3f7ff;
   width: 120%;
   border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
 }
 .buy-section .rate-score i {
   color: #0c63e4;
   font-size: 32px;
+  margin-right: 20px;
 }
 .buy-section .rate-score .col-md-6 {
   display: flex;
   align-items: center;
 }
+.buy-section .rate-score .col-md-6 img {
+  width: 50px;
+  height: 50px;
+}
 .buy-section .rate-score ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.buy-section .rate-score ul li {
+  font-size: 24px;
+  font-weight: lighter;
+  color: #445eb9;
+  padding: 0;
+  margin: 0;
+}
+.buy-section .rate-score ul li span {
+  font-size: 14px;
+  color: #a8a8a8;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.work-process {
+  text-align: center;
+  margin-top: 100px;
+}
+.work-process h2 {
+  color: #405f96;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.work-process p {
+  color: #a8a8a8;
+  font-size: 18px;
+}
+
+.features {
+  margin-top: 50px;
+}
+.features h2 {
+  color: #a8a8a8;
+  font-size: 36px;
+  font-weight: lighter;
+}
+.features h3 {
+  color: #405f96;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 26px;
+}
+.features p {
+  color: #a8a8a8;
+}
+.features img {
+  width: 75%;
 }
 
 /*# sourceMappingURL=homepage.css.map */
